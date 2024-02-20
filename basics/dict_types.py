@@ -119,13 +119,3 @@
 #     if k == str(k):
 #         b = len(k)
 #         print(max(b))
-
-list_ = ['hello', 23, 56, 'world', 928, 'Makers', 456, 'word', 223, 89, 'bootcamp', 'coding']
-dict_ = {}
-for i in list_:
-    if i == str():
-        k = i
-        if i == int():
-            v = i
-            dict_.setdefault(k,v)
-    print(dict_)
