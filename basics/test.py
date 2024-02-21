@@ -8,7 +8,6 @@
 #suitcase.insert(0,'hljbl')
 #print(suitcase)
 
-list_ = [20, 10, 20, 1, 100]
-
-for i in list_:
-    print(min(i))
+list_name = ['paul', 'john', 'george', 'ringo', 'eric', 'patty', 'yoko', 'cynthia', 'linda', 'jude' ]
+new_list = [i=='longer' if i==int(i) and i>4 else 'shorter' for i in list_name]
+print(list_name)
